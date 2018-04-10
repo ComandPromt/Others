@@ -19,7 +19,7 @@ USB CON VARIOS SISTEMAS OPERATIVOS (SYSLINUX)
 ~~~
 set MYISO=WIN7_X86-X64.iso
 ~~~
-- Cambiamos "WIN7_X86-X64" por el nombre de la iso de nuestro Wiindows 7
+- Cambiamos "WIN7_X86-X64" por el nombre de la iso de nuestro Windows 7
 
 - Guardamos
 
@@ -73,7 +73,7 @@ map /multiboot/ISOs/WINXP_X86.ISO (0xff)
 rewrite (99) [FiraDisk]nStartOptions=cdrom,vmem=find:/multiboot/ISOS/WINXP_X86.ISO;n0
 ~~~
 
-Reemplazamos WINXP_X86.ISO por el nombre de nuestra iso.
+Reemplazamos "WINXP_X86.ISO" por el nombre de nuestra iso.
 
 --------------------------------------------------------------------------
 
