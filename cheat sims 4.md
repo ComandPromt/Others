@@ -1,10 +1,13 @@
 PULSAMOS CONTROL+SHIFT+C
+
 ~~~
 testingcheats on
 ~~~
+
 --------------------
 Relaciones
 --------------------
+
 ~~~
 Modifyrelationship Clara Gómez Juan Espinosa 100 Friendship_Main
 Modifyrelationship Clara Gómez Juan Espinosa 100 Romance_Main
@@ -13,31 +16,59 @@ Modifyrelationship Clara Gómez Juan Espinosa 100 Romance_Main
 -----------------------------------------------
 LLENAR NECESIDADES
 -----------------------------------------------
+
 - Energía
- ~~~fillmotive motive_energy~~~ 
+
+ ~~~
+ fillmotive motive_energy
+ ~~~ 
+ 
 - Hambre
- ~~~fillmotive motive_hunger ~~~
+
+ ~~~
+ fillmotive motive_hunger
+ ~~~
+ 
 - Vejiga
- ~~~fillmotive motive_bladder~~~ 
+
+ ~~~
+ fillmotive motive_bladder
+ ~~~ 
+ 
  - Diversión
- ~~~fillmotive motive_fun~~~ 
+ 
+ ~~~
+ fillmotive motive_fun
+ ~~~ 
+ 
  - Interacción Social
- ~~~fillmotive motive_social~~~
+ 
+ ~~~
+ fillmotive motive_social
+ ~~~
+ 
 - Higiene
- ~~~fillmotive motive_hygiene~~~ 
+
+ ~~~
+ fillmotive motive_hygiene
+ ~~~ 
+ 
 --------------------------------------
 Satisfacerlas todas las necesidades
 --------------------------------------
+
 ~~~
 sims.fill_all_commodities
 ~~~
+
 ~~~
 stats.fill_commodities_household
 ~~~
 
------------
+-------
 Dinero
-----------
+-------
+
 ~~~
 motherlode 
 ~~~
@@ -48,14 +79,15 @@ Ganar 1000 de dinero:
 money 1000
 ~~~
 
+Pagar automaticamente las facturas
 
 ~~~
-households.autopay_bills true pagar automaticamente las facturas
+households.autopay_bills true 
 ~~~
 
-------------------
+-----------------
 Estados de animo
-------------------
+-----------------
 
 Aburrido
 ~~~
@@ -127,9 +159,9 @@ Vacilon
 sims.add_buff PlayfulHigh
 ~~~
                          
-----------
+--------
 Trabajo
-----------
+--------
 
 ~~~
 careers.promote Nombre
@@ -150,9 +182,9 @@ sims.give_satisfaction_points 100
 (sustituir 100 por el numero deseado)
 
 
-----------------------
+---------------------
 Desactivar la muerte
-----------------------
+---------------------
 
 ~~~
 death.toggle
