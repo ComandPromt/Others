@@ -16,9 +16,9 @@ USB CON VARIOS SISTEMAS OPERATIVOS (SYSLINUX)
 - Copiamos las isos en la carpeta ISOS
 
 - Nos vamos a la carpeta Windows y editamos los archivos con extensión cfg, buscamos lo siguiente:
-
+~~~
 set MYISO=WIN7_X86-X64.iso
-
+~~~
 - Cambiamos "WIN7_X86-X64" por el nombre de la iso de nuestro Wiindows 7
 
 - Guardamos
@@ -27,20 +27,23 @@ set MYISO=WIN7_X86-X64.iso
 Archivo Windowsxp.cfg 
 ----------------------
 
+~~~
 map /multiboot/ISOs/WINXP_X86.ISO (0xff)
 
 rewrite (99) [FiraDisk]nStartOptions=cdrom,vmem=find:/multiboot/ISOS/WINXP_X86.ISO;n0
+~~~
 
-Remplazamos WINXP_X86.ISO por el nombre de nuestra iso.
+Reemplazamos "WINXP_X86.ISO" por el nombre de nuestra iso.
 
 ----------------------------------------------------------------------------------------------------
 
 Arrancar desde el disco duro 
 
+~~~
 title Boot from Arrancar desde el disco duro
 rootnoverify (hd0,0)
 chainloader (hd0,0)+1
-
+~~~
 ----------------------------------------------------------------------------------------------------
 
 --------------------------------------------
@@ -54,9 +57,9 @@ USB CON VARIOS SISTEMAS OPERATIVOS (SYS4DOS)
 -Copiamos las isos en la carpeta ISOS
 
 -Nos vamos a la carpeta Windows y editamos los archivos con extensión cfg, buscamos lo siguiente:
-
+~~~
 set MYISO=WIN7_X86-X64.iso
-
+~~~
 -Cambiamos "WIN7_X86-X64" por el nombre de la iso de nuestro Windows 7
 
 -Guardamos
@@ -65,18 +68,22 @@ set MYISO=WIN7_X86-X64.iso
 Archivo Windowsxp.cfg 
 -----------------------------------
 
+~~~
 map /multiboot/ISOs/WINXP_X86.ISO (0xff)
 rewrite (99) [FiraDisk]nStartOptions=cdrom,vmem=find:/multiboot/ISOS/WINXP_X86.ISO;n0
+~~~
 
-Remplazamos WINXP_X86.ISO por el nombre de nuestra iso.
+Reemplazamos WINXP_X86.ISO por el nombre de nuestra iso.
 
 --------------------------------------------------------------------------
 
 Arrancar desde el disco duro
 
+~~~
 title Boot from Arrancar desde el disco duro
 rootnoverify (hd0,0)
 chainloader (hd0,0)+1
+~~~
 
 ---------------------------------------------------------------------------
 
