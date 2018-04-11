@@ -1,8 +1,0 @@
-* kuando el ordenador pueda tapar una ficha al usuario en varios lados pero en uno de ellos o en varios ademas puede juntar una mas kon una suya, elegir un sitio de estos. kiza almacenando todos los sitios posibles en una array y luego eligiendo el mejor sitio...
-* dar error si los dos kolores de las piezas (del ordenador y del usuario) son muy parecidos, si es posible kalkularlo.
-
-//(kreo)* dejar hacer el juego de dos jugadores.
-//* kambiar de kolor las ke hagan linea, aunke sean en diagonal+horizontal, etc. aunke sean msa de fichas_necesarias, etc.
-//* (kreo) no tapar las fichas del usuario kuando es imposible ke haga linea (porke se akaba el tablero i no podria poner mas fichas). si se hace esto, el ordenador sera mucho mas eficiente.
-//* boton de nuevo juego al lado de opciones (kiza antes)
-//* resizear el mapa si es mui grande (igual k en el yasminuroban).
