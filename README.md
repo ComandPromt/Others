@@ -6,7 +6,7 @@ chrome.exe --allow-running-insecure-content
 
 ## IMAGEN Y ARCHIVOS TXT A PDF
 
-- Requisitos
+# Requisitos
 
 - Image Magic
 
