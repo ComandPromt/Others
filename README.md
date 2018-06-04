@@ -49,3 +49,7 @@ pause
  
  [Server DNS](https://github.com/ComandPromt/Others/blob/master/DNS.rar)
  
+ # Test asertividad
+ 
+ [Test asertividad](https://github.com/ComandPromt/Others/blob/master/test-asertividad-rathus.xls)
+ 
