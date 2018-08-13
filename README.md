@@ -53,3 +53,6 @@ pause
  
  [Test asertividad](https://github.com/ComandPromt/Others/blob/master/test-asertividad-rathus.xls)
  
+ # Alternativa a Filecrop
+  [Alternativa a Filecrop](http://megasearch.co)
+  [Alternativa a Filecrop](http://shoppingcarte.fr/)
