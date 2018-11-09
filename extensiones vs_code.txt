@@ -1,0 +1,6 @@
+Format HTML in PHP
+PHP Debug
+PHP Extension Pack
+PHP InstelliSense
+PHP Symbols
+phpfmt - PHP formatter
